@@ -8,7 +8,6 @@ import xbmcaddon
 import os
 import subprocess
 
-
 common = CommonFunctions
 __addon__       = xbmcaddon.Addon()
 __addonname__   = __addon__.getAddonInfo('name') 
@@ -51,7 +50,6 @@ def IsFritzboxPresent():
 	return IsAddrPingable("fritz.box")
 #--------------------------------------------------------------------------------------------	
 #--------------------------------------------------------------------------------------------	
-
 params = common.getParameters(sys.argv[2])
 
 try:

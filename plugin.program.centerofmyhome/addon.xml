@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.CenterOfMyHome" name="Center of my home" version="1.0" provider-name="TR">
+<addon id="plugin.program.centerofmyhome" name="centerofmyhome" version="1.0" provider-name="TR">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
     <import addon="script.module.parsedom" version="0.9.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource" library="jarvis.py">
+  <extension point="xbmc.python.pluginsource" library="centerofmyhome.py">
     <provides>executable image audio video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <language>de</language>
     <platform>all</platform>
-    <summary lang="en">center of my home</summary>
+    <summary lang="en">centerofmyhome</summary>
     <description lang="en">in the center of my home I control everything</description>
   </extension>
 </addon>
